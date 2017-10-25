@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.main {
+.container {
   width: 700px;
   margin: 0 auto;
   padding: 20px;
@@ -32,17 +32,17 @@
   content: "";
 }
 
-.left {
+.contents_left {
   float: left;
   width: 300px;
 }
 
-.right {
+.contents_right {
   float: right;
   width: 380px;
 }
 
-.right_txt {
+.contents_right_txt {
   height: 203px;
   padding: 10px;
   font-size: 12px;
@@ -56,43 +56,44 @@
   text-align: right;
 }
 
-.kome {
+.symbol {
   color: red;
 }
 
-.con {
+.form {
   float: right;
   width: 180px;
 }
 
-.input1 {
+.input {
   padding: 5px;
   font-size: 12px;
   line-height: 12px;
 }
 
-.left_top {
+.contents_left_top {
   margin-bottom: 20px;
 }
-.left_top > li:not(:first-child) {
+
+.contents_left_top > li:not(:first-child) {
   margin-top: 20px;
 }
 
-.botan {
+.button {
   cursor: pointer;
 }
 
-.radio1-input {
+.radio_input {
   display: none;
 }
 
-.radio1-parts {
+.radio_parts {
   position: relative;
   display: inline-block;
   padding: 3px 3px 3px 20px;
 }
 
-.radio1-parts:before {
+.radio_parts:before {
   content: "";
   position: absolute;
   top: 50%;
@@ -105,7 +106,7 @@
   border-radius: 50%;
 }
 
-.radio1-input:checked + .radio1-parts:after {
+.radio_input:checked + .radio_parts:after {
   content: "";
   position: absolute;
   top: 50%;
@@ -117,7 +118,7 @@
   border-radius: 50%;
 }
 
-.left_bottom {
+.contents_left_buttom {
   text-align: right;
 }
 
@@ -133,7 +134,7 @@
   outline: none;
 }
 
-.in {
+.common {
   width: 100%;
   border: none;
   outline: none;
