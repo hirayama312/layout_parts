@@ -1,59 +1,60 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.box0 {
+.container {
   text-align: center;
 }
 
-.box1 {
+.contents {
   display: inline-block;
   margin: 10px;
   font-size: 16px;
   vertical-align: middle;
 }
 
-.text1 {
+.text {
   padding: 5px;
-  border: 1px solid #00BCD4;
+  border: 1px solid #00bcd4;
   border-radius: 5px;
+  outline-color: #00bcd4;
 }
 
-.text1::-webkit-input-placeholder {
-  color: #00BCD4;
+.text::-webkit-input-placeholder {
+  color: #00bcd4;
 }
 
-.text2 {
+.textarea {
   height: 40px;
   padding: 5px;
-  border: 1px solid #00BCD4;
+  border: 1px solid #00bcd4;
   border-radius: 5px;
   resize: none;
+  outline: none;
 }
 
-.in {
+.common {
   font-size: 16px;
   background: none;
   font-size: none;
-  outline: none;
   -webkit-appearance: none;
 }
 
 /*ラジオボタン*/
-.radio1-input {
+.radio_input {
   display: none;
 }
 
-.botan {
+.label_list {
   cursor: pointer;
 }
 
-.radio1-parts {
+.radio_parts {
   position: relative;
   display: inline-block;
   padding: 3px 3px 3px 20px;
 }
 
-.radio1-parts:before {
+.radio_parts:before {
   content: "";
   position: absolute;
   top: 50%;
@@ -66,7 +67,7 @@
   border-radius: 50%;
 }
 
-.radio1-input:checked + .radio1-parts:after {
+.radio_input:checked + .radio_parts:after {
   content: "";
   position: absolute;
   top: 50%;
@@ -79,13 +80,13 @@
 }
 
 /*チェックボックス*/
-.check-parts {
+.check_parts {
   position: relative;
   display: inline-block;
   padding: 3px 3px 3px 22px;
 }
 
-.check-parts::before {
+.check_parts::before {
   content: "";
   position: absolute;
   top: 50%;
@@ -97,7 +98,7 @@
   border: 1px solid #ccc;
 }
 
-.radio1-input:checked + .check-parts:after {
+.radio_input:checked + .check_parts:after {
   content: "";
   position: absolute;
   top: 5px;
@@ -110,12 +111,12 @@
 }
 
 /*select*/
-.select1 {
+.select {
   position: relative;
   background-color: #fff;
 }
 
-.select2 {
+.select_list {
   position: relative;
   border-radius: 5px;
   border: 1px solid #ccc;
@@ -123,7 +124,7 @@
   font-size: 14px;
 }
 
-.select1:before {
+.select:before {
   position: absolute;
   top: 7px;
   right: 9px;
@@ -138,14 +139,15 @@
 /*ボタン*/
 .button {
   padding: 5px 10px;
-  border: 1px solid #00BCD4;
+  border: 1px solid #00bcd4;
   border-radius: 5px;
   color: #00BCD4;
   cursor: pointer;
+  outline: none;
 }
 
 .button:active {
-  background-color: #00BCD4;
+  background-color: #00bcd4;
   color: #fff;
 }
 
