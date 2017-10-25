@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.box0 {
+.container {
   display: table;
   width: 100%;
   padding: 20px;
@@ -9,35 +9,35 @@
   background-color: #ECF1F2;
 }
 
-.in {
+.common {
   text-align: center;
   padding: 20px;
   display: table-cell;
 }
 
-.box1 {
+.contents1 {
   width: 100px;
   background-color: #fdc8b8;
 }
 
-.box2 {
+.contents2 {
   background-color: #e0abd9;
 }
 
-.box3 {
+.contents3 {
   width: 100px;
   background-color: #b6d8ed;
 }
 
-.box4 {
+.contents4 {
   background-color: #e5d32e;
 }
 
-.box5 {
+.contents5 {
   background-color: #e4e67c;
 }
 
-.box6 {
+.contents6 {
   width: 500px;
   background-color: #8fdcad;
 }
