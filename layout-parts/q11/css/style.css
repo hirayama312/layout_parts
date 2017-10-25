@@ -3,7 +3,7 @@
 /* 回答はここに書いてね */
 
 /*transition*/
-.scale {
+.transition {
   width: 500px;
   height: 333px;
   margin: 0 auto;
@@ -12,11 +12,11 @@
   position: relative;
 }
 
-.scale img {
+.transition img {
   transition: all 0.5s;
 }
 
-.scale img:hover {
+.transition img:hover {
   transform: scale(1.5);
 }
 
@@ -40,14 +40,14 @@
   word-break: break-all;
 }
 
-.scale:hover .txt_box {
+.transition:hover .txt_box {
   opacity: 1;
-  margin-bottom: 333px;
+  bottom: 0;
 }
 /*transition*/
 
 /*animation*/
-.ani {
+.animation {
   width: 100px;
   height: 100px;
   margin: 0 auto;
