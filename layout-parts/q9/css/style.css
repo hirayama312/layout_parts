@@ -9,7 +9,7 @@
   background-color: #ecf1f3;
 }
 
-.gri {
+.contents {
   float:left;
   padding: 10px;
   box-sizing: border-box;
@@ -23,54 +23,16 @@
   text-align: center;
 }
 
-.in12 {width: 100%;}
+.common12 {width: 100%;}
 
-.in6 {width: 50%;}
+.common6 {width: 50%;}
 
-.in4 {width: 33.3333%;}
+.common4 {width: 33.3333%;}
 
-.in3 {width: 25%;}
+.common3 {width: 25%;}
 
-.in2_4 {width: 20%;}
+.common2_4 {width: 20%;}
 
-.in2 {width: 16.6666%;}
+.common2 {width: 16.6666%;}
 
-
-
-/* ちょっと */
-.container {
-  padding: 20px;
-  display: grid;
-  grid-gap: 20px;
-  grid-template-rows: 50px 50px 50px 50px;
-  background-color: #ecf1f3
-}
-
-.row {
-  display: grid;
-  grid-gap: 20px;
-}
-
-.row1 {grid-template-columns: 1fr;}
-
-.row2 {grid-template-columns: 1fr 1fr;}
-
-.row3 {grid-template-columns: 1fr 1fr 1fr;}
-
-.row4 {grid-template-columns: 1fr 1fr 1fr 1fr;}
-
-.row5 {grid-template-columns: 1fr 1fr 1fr 1fr 1fr;}
-
-.row6 {grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;}
-
-.row7 {grid-template-columns: 2fr 1fr 1fr;}
-
-.row8 {grid-template-columns: 1fr 1fr 2fr 2fr;}
-
-.item {
-  background: #fff;
-  text-align: center;
-  line-height: 50px;
-}
-/* ちょっと */
 /* 回答はここに書いてね */
