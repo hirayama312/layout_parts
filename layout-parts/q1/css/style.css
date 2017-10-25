@@ -6,7 +6,8 @@
   display: block;
   clear: both;
 }
-.header {
+
+.wrapper {
   padding: 20px;
   width: 900px;
   margin: 0 auto;
@@ -15,18 +16,18 @@
   background-color: #eff3f4;
 }
 
-.a-box {
+.content {
   float: left;
   padding: 20px;
   margin-left: 20px;
   background-color: #3274ae;
 }
 
-.a-box:first-child {
+.content:first-child {
   margin-left: 0;
 }
 
-.b-box {
+.text {
   width: 230px;
   padding: 20px;
   box-sizing: border-box;
