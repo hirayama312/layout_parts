@@ -1,15 +1,14 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.box1 {
+.q5_1_content {
   text-align: center;
 }
 
 .textAlign {
   width: 90px;
   display: inline-block;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 0;
   background-color: #e6f2ff;
 }
 
@@ -17,11 +16,9 @@
   margin: 0 auto;
   width: 90px;
   text-align: center;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px 0;
   background-color: #e6f2ff;
 }
-/**/
 
 .q5__box {
   text-align: center;
@@ -40,7 +37,7 @@
 }
 
 /*この辺*/
-.a_box {
+.content {
   height: 100%;
 }
 
@@ -50,7 +47,7 @@
   justify-content: center;
 }
 
-.box4 {
+.text {
   padding: 10px;
   background-color: #fff;
 }
