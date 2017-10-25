@@ -16,14 +16,9 @@
 }
 
 .box8 {
-  width: 100px;
-  height: 100px;
-  position: relative;
+  position: absolute;
   top: 120px;
   left: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   background-color: #de70cf;
 }
 
@@ -42,105 +37,73 @@
 }
 
 .box5 {
-  width: 100px;
-  height: 100px;
   position: absolute;
   bottom: 40px;
   left: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 5;
   background-color: #9fd6d2;
 }
 
 .box1 {
-  width: 100px;
-  height: 100px;
   position: absolute;
   top: 40px;
   left: 200px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 1;
   background-color: #ffefd3;
 }
 
 .box7 {
-  width: 100px;
-  height: 100px;
   position: absolute;
   top: 200px;
   left: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 7;
   background-color: #deae70;
 }
 
 .box4 {
-  width: 100px;
-  height: 100px;
   position: absolute;
   bottom: 120px;
   left: 280px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 4;
   background-color: #8b7a5e;
 }
 
 .box6 {
-  width: 100px;
-  height: 100px;
   position: absolute;
   bottom: 120px;
   left: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 6;
   background-color: #fffee4;
 }
 
 .box2 {
-  width: 100px;
-  height: 100px;
   position: absolute;
   top: 120px;
   left: 280px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 2;
   background-color: #7084de;
 }
 
 .box3 {
-  width: 100px;
-  height: 100px;
   position: absolute;
   top: 200px;
   left: 360px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 3;
   background-color: #d0ecea;
 }
 
 .box9 {
-  width: 100px;
-  height: 100px;
   top: 10px;
   left: 10px;
+  position: fixed;
+  background-color: #2b69a3;
+}
+
+.common {
+  width: 100px;
+  height: 100px;
   display: flex;
   align-items: center;
   justify-content: center;
-  position: fixed;
-  background-color: #2b69a3;
 }
 /* 回答はここに書いてね */
